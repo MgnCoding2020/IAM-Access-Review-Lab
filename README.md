@@ -46,3 +46,17 @@ This project demonstrates how a junior GRC or security analyst may perform and d
 * Removal of inactive accounts
 * Proper assignment of administrative privileges
 * Access alignment with job roles
+
+## Current Repository Artifacts
+
+This repository currently includes:
+
+- Quarterly Access Review Procedure
+- Access Review Evidence
+- Access Review Findings
+- Remediation Tracker
+- Quarterly Review Summary
+
+## Project Focus
+
+This lab demonstrates how a junior GRC, IAM, or security analyst may document and execute a quarterly access certification review for a small business environment.
