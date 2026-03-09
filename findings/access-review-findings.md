@@ -110,8 +110,38 @@ Require MFA enrollment for the user and verify MFA enforcement for all accounts.
 
 ---
 
-## 4. Next Steps
+### F-005 — Weak Password Policy Configuration
 
-The identified findings will be tracked through remediation activities documented in the **remediation tracking records**.
+System: Windows Lab VM
 
-Once corrective actions are completed, the access review will be considered closed for the quarter.
+Observation
+
+Local system password policy settings were reviewed using the `net accounts` command.
+
+The following weak configuration settings were identified:
+
+- Minimum password length set to 0
+- Password history not enforced
+- Password complexity not enabled
+
+Risk
+
+Weak password policies increase the likelihood of password guessing attacks, credential reuse, and unauthorized system access.
+
+Recommended Action
+
+Implement stronger password policy settings including:
+
+- Minimum password length of 12 characters
+- Password history enforcement
+- Password complexity requirements
+- Reasonable password expiration settings
+
+Remediation Update
+
+Password policy settings were updated using Local Security Policy (`secpol.msc`) and validated using the `net accounts` command.
+
+Status: **Remediated**
+
+---
+
