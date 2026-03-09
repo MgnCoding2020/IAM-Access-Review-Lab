@@ -38,6 +38,27 @@ This repository demonstrates the operational side of IAM governance, including:
 * Remediation Tracking
 * Access Review Summary
 
+## IAM Governance Workflow
+
+```mermaid
+flowchart TD
+
+A[Access Control Policy] --> B[Access Review Procedure]
+
+B --> C[Quarterly Access Review]
+
+C --> D[Evidence Collection]
+D --> E[VM Local Access Validation]
+
+E --> F[Access Review Findings]
+
+F --> G[Remediation Tracking]
+
+G --> H[Security Control Improvements]
+
+H --> I[Updated Password Policy Configuration]
+```
+
 ## Goal
 
 This project demonstrates how a junior GRC or security analyst may perform and document an **access certification review** to validate:
