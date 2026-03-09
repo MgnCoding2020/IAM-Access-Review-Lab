@@ -29,7 +29,7 @@ The access matrix and supporting evidence are stored in the **evidence** directo
 | F-002      | Shift leader assigned unnecessary administrative privileges | Medium     | Open   |
 | F-003      | Inactive vendor account still enabled                       | Medium     | Open   |
 | F-004      | Multi-factor authentication not enabled for one user        | Low        | Open   |
-
+| F-005      | Weak password configuration                                 | Medium     | Completed   |
 ---
 
 ## 3. Detailed Findings
