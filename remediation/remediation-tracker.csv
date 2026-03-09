@@ -3,3 +3,4 @@ F-001,Terminated employee account still active,System Administrator,Disable Goog
 F-002,Shift leader assigned unnecessary administrative privileges,Store Manager,Reduce Marcus Hill Toast POS role to Shift Leader,2026-04-02,Open,Manager approval required
 F-003,Inactive vendor account still enabled,System Administrator,Disable NorthPeak Systems network admin account,2026-03-31,Open,Re-enable only if future support engagement is approved
 F-004,MFA not enabled for one user,System Administrator,Enroll Ethan Brooks in MFA and verify enforcement,2026-04-05,Open,Confirm MFA status after enrollment
+F-005,Weak password policy configuration,System Administrator,Update password policy using Local Security Policy and validate with net accounts,2026-04-05,Completed,Password policy hardened and validated
