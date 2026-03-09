@@ -1,0 +1,35 @@
+User_Name,Role,Employment_Status,System,Access_Level,Privileged_Access,MFA_Enabled,Reviewer_Notes
+Olivia Carter,Business Owner,Active,Google Workspace,Super Admin,Yes,Yes,Approved business owner access
+Olivia Carter,Business Owner,Active,QuickBooks Online,Admin,Yes,Yes,Required for finance oversight
+Olivia Carter,Business Owner,Active,Toast POS,Admin,Yes,Yes,Required for business operations
+Olivia Carter,Business Owner,Active,Network Admin,Admin,Yes,Yes,Authorized administrative access
+Daniel Lopez,Store Manager,Active,Google Workspace,Standard User,No,Yes,Access appropriate for manager role
+Daniel Lopez,Store Manager,Active,Toast POS,Manager,No,Yes,Access appropriate for store operations
+Daniel Lopez,Store Manager,Active,xtraCHEF,Manager,No,Yes,Access appropriate for inventory duties
+Mia Chen,Shift Leader,Active,Google Workspace,Standard User,No,Yes,Access appropriate
+Mia Chen,Shift Leader,Active,Toast POS,Shift Lead,No,Yes,Access appropriate
+Marcus Hill,Shift Leader,Active,Google Workspace,Standard User,No,Yes,Access appropriate
+Marcus Hill,Shift Leader,Active,Toast POS,Admin,Yes,Yes,Review admin access necessity
+Sofia Patel,Shift Leader,Active,Google Workspace,Standard User,No,Yes,Access appropriate
+Sofia Patel,Shift Leader,Active,Toast POS,Shift Lead,No,Yes,Access appropriate
+Ethan Brooks,Employee,Active,Google Workspace,Standard User,No,Yes,Access appropriate
+Ethan Brooks,Employee,Active,Toast POS,Cashier,No,No,MFA not enabled
+Ava Reed,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Noah Bennett,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Lily Foster,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+James Cooper,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Chloe Murphy,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Logan Price,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Grace Kelly,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Henry Adams,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Ella Turner,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Jack Rivera,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Nora Bailey,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Leo Collins,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Zoe Mitchell,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Owen Parker,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
+Aiden Scott,Employee,Terminated,Google Workspace,Standard User,No,Yes,Account should be removed
+Aiden Scott,Employee,Terminated,Toast POS,Cashier,No,No,Account should be removed
+Vertex IT Support,IT Vendor,Active,Google Workspace,Admin,Yes,Yes,Confirm ongoing business need
+Vertex IT Support,IT Vendor,Active,Network Admin,Admin,Yes,Yes,Privileged vendor access
+NorthPeak Systems,IT Vendor,Inactive,Network Admin,Admin,Yes,No,Vendor account should be disabled
