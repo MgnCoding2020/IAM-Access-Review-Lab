@@ -30,6 +30,9 @@ The access matrix and supporting evidence are stored in the **evidence** directo
 | F-003      | Inactive vendor account still enabled                       | Medium     | Open   |
 | F-004      | Multi-factor authentication not enabled for one user        | Low        | Open   |
 | F-005      | Weak password configuration                                 | Medium     | Completed   |
+
+> **Program cross-reference (added 2026-10-30):** outside this repository, these findings are cited as `IAM:F-001` to `IAM:F-005`, so they can't be confused with the Vendor Risk Assessment Lab's `F-0x` findings. See the program's [identifier conventions](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/00-company-profile/org/identifiers.md). The findings above are unchanged.
+
 ---
 
 ## 3. Detailed Findings

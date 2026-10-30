@@ -1,5 +1,7 @@
 # IAM Access Review Lab
 
+> Part of the Burn and Churn Coffee security program: [program hub](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop). Company, people, systems and vendors are defined there.
+
 ## Purpose
 
 This repository will demonstrate a simulated **quarterly access review process** for a small-business environment.
