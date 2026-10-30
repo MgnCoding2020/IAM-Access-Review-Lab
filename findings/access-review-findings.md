@@ -117,6 +117,8 @@ Require MFA enrollment for the user and verify MFA enforcement for all accounts.
 
 System: Windows Lab VM
 
+> **Lab demonstration (note added 2026-10-30):** this VM is not a Burn and Churn Coffee system and sits outside the company's system boundary. F-005 shows *how* a password-policy finding is identified, fixed and validated on a real machine, which the fictional company's own systems could not provide. It is not rolled up to the program POA&M.
+
 Observation
 
 Local system password policy settings were reviewed using the `net accounts` command.

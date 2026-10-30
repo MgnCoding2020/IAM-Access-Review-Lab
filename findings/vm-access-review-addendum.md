@@ -4,6 +4,8 @@ Burn and Churn Coffee IAM Access Review Lab
 ## Purpose
 This addendum documents observations from a local Windows VM review performed to supplement the quarterly access review evidence in this repository.
 
+> **Lab demonstration (note added 2026-10-30):** the VM is a real lab machine, not a Burn and Churn Coffee system; it sits outside the company's system boundary. It is included to show the review technique on a live system (see F-005).
+
 ## Review Method
 The review was performed using built-in Windows administrative commands to inspect:
 - local user accounts
