@@ -1,6 +1,8 @@
 # Quarterly Access Review Summary  
 Burn and Churn Coffee  
-Review Period: Q1 2026
+Review Period: Q1 2026  
+Review Date: 2026-03-25  
+Reviewers: Olivia Carter (Owner), Daniel Lopez (Store Manager)
 
 ---
 
@@ -21,7 +23,7 @@ In-scope users included:
 - 1 Business Owner
 - 1 Store Manager
 - 3 Shift Leaders
-- 14 Employees
+- 15 Employees (plus one terminated employee whose accounts were still active)
 - 2 IT Vendors
 
 ---
@@ -41,7 +43,7 @@ The review included the following activities:
 
 ## 3. Review Results
 
-Total findings identified: **4**
+Total findings identified: **4** (F-005, a password-policy fix on a lab VM, is a technique demonstration outside the company's system boundary and is not counted here)
 
 | Finding ID | Description | Risk Level | Status |
 |------------|-------------|------------|--------|
@@ -65,3 +67,11 @@ Findings from this review have been documented and entered into the remediation 
 ## 5. Reviewer Statement
 
 This review was performed as part of the Burn and Churn Coffee IAM governance process to support least privilege, timely deprovisioning, and periodic access validation.
+
+---
+
+## 6. Corrections and Status (added 2026-10-30)
+
+- Review date, reviewers and the employee count were added or corrected from the program record (see [CORRECTIONS.md](../evidence/CORRECTIONS.md)).
+- **No management sign-off is recorded** for this review. The checklist's approval step is left open, and sign-off is required for the Q4 2026 review.
+- F-001 to F-004 were found **overdue** on 2026-10-30; see [status checks](../remediation/status-checks.md).

@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This repository will demonstrate a simulated **quarterly access review process** for a small-business environment.
+This repository demonstrates a simulated **quarterly access review process** for a small-business environment.
 
 The goal of this lab is to show how Identity and Access Management (IAM) governance activities are performed, documented, and tracked by a security or GRC analyst.
 
@@ -45,7 +45,7 @@ This repository demonstrates the operational side of IAM governance, including:
 ```mermaid
 flowchart TD
 
-A[Access Control Policy] --> B[Access Review Procedure]
+A[Access Management Policy P-001] --> B[Access Review Procedure]
 
 B --> C[Quarterly Access Review]
 
@@ -60,6 +60,15 @@ G --> H[Security Control Improvements]
 
 H --> I[Updated Password Policy Configuration]
 ```
+
+## Review History
+
+| Review | Date | Systems | Findings | Status | Program linkage |
+|---|---|---|---|---|---|
+| Q1 2026 | 2026-03-25 | Google Workspace, Toast POS, xtraCHEF, QuickBooks Online, network admin | F-001 to F-004 (plus F-005, a lab demonstration) | F-001 to F-004 **overdue** at the 2026-10-30 [status check](remediation/status-checks.md); closing through CR-001 and CR-003 | POAM-014 (AC-2, AC-6) |
+| Q4 2026 | Planned, after 2026-11-15 | Microsoft Entra ID, Toast POS, xtraCHEF, network admin | — | Planned: the first review against Entra ID, and the post-implementation review for CR-001 and CR-003 | — |
+
+Corrections to dated records are logged in [evidence/CORRECTIONS.md](evidence/CORRECTIONS.md).
 
 ## Goal
 
