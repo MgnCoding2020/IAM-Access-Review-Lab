@@ -55,7 +55,7 @@ This review includes all users with access to these systems, including:
 * Confirms access aligns with job responsibilities
 * Identifies unnecessary permissions
 
-### System Administrator / IT Support
+### IT Administrator (Vertex IT Support until 2026-11-15, then the IT Technician)
 
 * Generates access reports from company systems
 * Implements access changes identified during review
@@ -123,7 +123,7 @@ Examples include:
 
 ---
 
-### Step 4 – Documentation
+### Step 4 – Documentation and Sign-off
 
 The results of the review must be documented.
 
@@ -134,6 +134,7 @@ Documentation must include:
 * Reviewer name
 * Summary of findings
 * Actions taken or planned remediation
+* **Sign-off by the Owner and Store Manager.** The IT administrator exports the data but does not certify their own access (separation of duties)
 
 These records serve as evidence that periodic access reviews are performed.
 
@@ -155,7 +156,6 @@ Access review documentation should be retained for **at least one year** for int
 
 ## Source Reference
 
-This procedure is derived from the Access Management governance documentation
-defined in the **Burn and Churn Coffee GRC security program repository**.
+This procedure is the lab's operational copy of the program's [PR-003 Quarterly Access Review procedure](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/05-procedures/PR-003-quarterly-access-review.md), which implements the [Access Management Policy (P-001)](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/04-policies/P-001-access-control.md). If the two differ, PR-003 wins. The system scope changes to Microsoft Entra ID with the program's change CR-001 (2026-11-15).
 
 This repository demonstrates the **operational execution** of that access review process.

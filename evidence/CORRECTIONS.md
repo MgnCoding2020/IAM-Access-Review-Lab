@@ -23,4 +23,14 @@ F-005 and the VM addendum gained a note labelling them as a lab demonstration ou
 
 ---
 
+## 2026-10-30: Program alignment, story review
+
+| File | Change | Reason |
+|---|---|---|
+| [quarterly-access-review-summary.md](../review-summary/quarterly-access-review-summary.md) | Review date (2026-03-25) and reviewers (Owner, Store Manager) added; "14 Employees" → 15; note that F-005 isn't counted; corrections and status section | The procedure requires the date and reviewer names; both are recorded in the program's access review export. The matrix lists 15 active employees. Sign-off is noted as missing rather than invented |
+| [access-review-checklist.md](access-review-checklist.md) | Eight steps ticked; management approval left unticked | Every ticked step is proven by an existing artifact; no Q1 sign-off exists |
+| [remediation-tracker.csv](../remediation/remediation-tracker.csv) | F-001 to F-004 → Overdue; `Last_Status_Check` and `Closure_Plan` columns added | Status check on 2026-10-30 (see [status checks](../remediation/status-checks.md)). This is a status update, not a correction of the original record |
+
+---
+
 *This document is a simulation for educational and portfolio purposes only.*

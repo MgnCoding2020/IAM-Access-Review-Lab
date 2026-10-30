@@ -150,3 +150,11 @@ Status: **Remediated**
 
 ---
 
+## 4. Status Update (added 2026-10-30)
+
+A status check during the program alignment review found **F-001 to F-004 still open, about seven months past their target dates**, with no evidence of remediation. They are now marked **Overdue**, escalated to the Owner, and scheduled to close through the program's changes CR-001 and CR-003 on 2026-11-15, with closure confirmed in the Q4 2026 access review. Details: [status checks](../remediation/status-checks.md) and the [remediation tracker](../remediation/remediation-tracker.csv).
+
+At program level, F-001 to F-004 roll up to **POAM-014** (AC-2, AC-6) in the [program POA&M](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/07-evidence-pack/poam/poam.md). The findings above are unchanged.
+
+---
+
