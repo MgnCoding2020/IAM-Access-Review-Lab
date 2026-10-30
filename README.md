@@ -19,8 +19,8 @@ Company size:
 * 1 Business Owner
 * 1 Store Manager
 * 3 Shift Leaders
-* 14 Employees
-* 2 IT Vendors
+* 15 Baristas (20 active store staff in total)
+* 2 IT vendors: Vertex IT Support (active) and NorthPeak Systems (engagement ended)
 
 Systems reviewed during access certification include:
 

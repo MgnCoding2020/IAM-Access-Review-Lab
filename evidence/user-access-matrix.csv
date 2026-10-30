@@ -12,8 +12,8 @@ Marcus Hill,Shift Leader,Active,Google Workspace,Standard User,No,Yes,Access app
 Marcus Hill,Shift Leader,Active,Toast POS,Admin,Yes,Yes,Review admin access necessity
 Sofia Patel,Shift Leader,Active,Google Workspace,Standard User,No,Yes,Access appropriate
 Sofia Patel,Shift Leader,Active,Toast POS,Shift Lead,No,Yes,Access appropriate
-Ethan Brooks,Employee,Active,Google Workspace,Standard User,No,Yes,Access appropriate
-Ethan Brooks,Employee,Active,Toast POS,Cashier,No,No,MFA not enabled
+Ethan Brooks,Employee,Active,Google Workspace,Standard User,No,No,MFA not enabled
+Ethan Brooks,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Ava Reed,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Noah Bennett,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Lily Foster,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
@@ -28,7 +28,7 @@ Nora Bailey,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Leo Collins,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Zoe Mitchell,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
 Owen Parker,Employee,Active,Toast POS,Cashier,No,No,Access appropriate
-Aiden Scott,Employee,Terminated,Google Workspace,Standard User,No,Yes,Account should be removed
+Aiden Scott,Employee,Terminated,Google Workspace,Standard User,No,No,Account should be removed
 Aiden Scott,Employee,Terminated,Toast POS,Cashier,No,No,Account should be removed
 Vertex IT Support,IT Vendor,Active,Google Workspace,Admin,Yes,Yes,Confirm ongoing business need
 Vertex IT Support,IT Vendor,Active,Network Admin,Admin,Yes,Yes,Privileged vendor access
