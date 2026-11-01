@@ -66,7 +66,7 @@ H --> I[Updated Password Policy Configuration]
 | Review | Date | Systems | Findings | Status | Program linkage |
 |---|---|---|---|---|---|
 | Q1 2026 | 2026-03-25 | Google Workspace, Toast POS, xtraCHEF, QuickBooks Online, network admin | F-001 to F-004 (plus F-005, a lab demonstration) | F-001 to F-004 **overdue** at the 2026-10-30 [status check](remediation/status-checks.md); closing through CR-001 and CR-003 | POAM-014 (AC-2, AC-6) |
-| Q4 2026 | Planned, after 2026-11-15 | Microsoft Entra ID, Toast POS, xtraCHEF, network admin | — | Planned: the first review against Entra ID, and the post-implementation review for CR-001 and CR-003 | — |
+| Q4 2026 | Planned, after 2026-11-15 | Microsoft Entra ID (including admin, break-glass and guest accounts), Toast POS, xtraCHEF, network admin, password manager, connected-device and vendor portals ([planned scope](procedure/quarterly-access-review-procedure.md#planned-additions-to-scope-first-review-after-2026-11-15)) | — | Planned: the first review against Entra ID, and the post-implementation review for CR-001 and CR-003 | — |
 
 Corrections to dated records are logged in [evidence/CORRECTIONS.md](evidence/CORRECTIONS.md).
 

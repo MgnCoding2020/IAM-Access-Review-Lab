@@ -39,6 +39,23 @@ This review includes all users with access to these systems, including:
 * Store Employees
 * Authorized IT vendors
 
+### Planned additions to scope (first review after 2026-11-15)
+
+The program added accounts and systems after the Q1 2026 review. From the Q4 2026 review on, the review also covers:
+
+| What | Check | Program source |
+|---|---|---|
+| Admin accounts (`adm-olivia.carter`, `adm-riley.morgan`) | Exactly the roles in `admin-accounts.csv`; members of `grp-bc-admins` only; the IT Technician exported the data but didn't sign off | [admin-accounts.csv](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/00-company-profile/org/admin-accounts.csv), [roles.md](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/00-company-profile/org/roles.md) |
+| Break-glass accounts | Every sign-in since the last review explained | [roles.md](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/00-company-profile/org/roles.md) |
+| Vendor guest (VC-001, once CR-004 is active) | Still needed, in `grp-bc-vendors` only, end date not passed | [CR-004](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/09-change-management/CR-004-vendor-guest-access.md) |
+| Password manager organization | Exactly two members: the Owner and the IT Technician | [PR-009](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/05-procedures/PR-009-credential-vault.md) |
+| Network device admin accounts (firewall, access points) | Named accounts only; no default or vendor accounts left | [P-005](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/04-policies/P-005-network-security.md) §5 |
+| Connected-device and vendor portal accounts (cameras, espresso service, temperature monitoring, speaker app) | Company-owned; individual camera accounts for the Owner and Store Manager with MFA; no personal accounts | [PR-011](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/05-procedures/PR-011-connected-devices.md), connected device checklist |
+| Generic vendor accounts | None remain (the Vertex generic account is removed in the CR-003 handover) | Finding AL-13 in the program plan |
+| Register sign-in and the payment dashboard (after CR-005) | Replaces the Toast PIN review | [CR-005](https://github.com/MgnCoding2020/grc-paper-project-coffee-shop/blob/main/09-change-management/CR-005-toast-pos-replacement.md) |
+
+Systems in the main list above change to Microsoft Entra ID at the Microsoft 365 cutover (CR-001).
+
 ---
 
 ## 3. Roles and Responsibilities
