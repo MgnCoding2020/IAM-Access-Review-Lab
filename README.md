@@ -20,15 +20,18 @@ Company size:
 * 1 Store Manager
 * 3 Shift Leaders
 * 15 Baristas (20 active store staff in total)
-* 2 IT vendors: Vertex IT Support (active) and NorthPeak Systems (engagement ended)
+* A part-time in-house IT Technician (planned hire, replacing Vertex IT Support under the program's change CR-003)
+* IT vendors at the Q1 review: Vertex IT Support (being offboarded) and NorthPeak Systems (engagement ended)
 
-Systems reviewed during access certification include:
+Systems in the **Q1 2026** review (Google Workspace era):
 
 * Google Workspace
 * Toast POS
 * xtraCHEF inventory platform
 * QuickBooks Online
 * Store networking infrastructure
+
+From the **Q4 2026** review: Microsoft Entra ID (after the Microsoft 365 cutover, CR-001), Toast POS, xtraCHEF, network administration, the password manager and connected-device vendor portals. See [reviews/2026-Q4/](reviews/2026-Q4/README.md).
 
 ## Repository Contents
 
@@ -92,11 +95,9 @@ This project demonstrates how a junior GRC or security analyst may perform and d
 
 This repository currently includes:
 
-- Quarterly Access Review Procedure
-- Access Review Evidence
-- Access Review Findings
-- Remediation Tracker
-- Quarterly Review Summary
+- Quarterly Access Review Procedure ([procedure/](procedure/quarterly-access-review-procedure.md))
+- The Q1 2026 review: evidence, findings (including a lab demonstration, F-005), remediation tracker with status checks, and summary ([reviews/2026-Q1/](reviews/2026-Q1/))
+- The Q4 2026 review plan ([reviews/2026-Q4/](reviews/2026-Q4/README.md))
 
 ## Project Focus
 
