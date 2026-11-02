@@ -32,6 +32,15 @@ Systems reviewed during access certification include:
 
 ## Repository Contents
 
+Each review has its own folder, so earlier reviews stay exactly as recorded:
+
+| Folder | Contents |
+|---|---|
+| [`procedure/`](procedure/quarterly-access-review-procedure.md) | The review procedure, used by every review |
+| [`reviews/2026-Q1/`](reviews/2026-Q1/) | The Q1 2026 review (Google Workspace era): evidence, findings, remediation, summary. Moved here unchanged on 2026-11-02 |
+| [`reviews/2026-Q4/`](reviews/2026-Q4/README.md) | The Q4 2026 review, the first in Microsoft Entra ID (planned, after 2026-11-15) |
+| [`docs/`](docs/) | Supporting notes |
+
 This repository demonstrates the operational side of IAM governance, including:
 
 * Quarterly Access Review Procedure
@@ -65,10 +74,10 @@ H --> I[Updated Password Policy Configuration]
 
 | Review | Date | Systems | Findings | Status | Program linkage |
 |---|---|---|---|---|---|
-| Q1 2026 | 2026-03-25 | Google Workspace, Toast POS, xtraCHEF, QuickBooks Online, network admin | F-001 to F-004 (plus F-005, a lab demonstration) | F-001 to F-004 **overdue** at the 2026-10-30 [status check](remediation/status-checks.md); closing through CR-001 and CR-003 | POAM-014 (AC-2, AC-6) |
+| Q1 2026 | 2026-03-25 | Google Workspace, Toast POS, xtraCHEF, QuickBooks Online, network admin | F-001 to F-004 (plus F-005, a lab demonstration) | F-001 to F-004 **overdue** at the 2026-10-30 [status check](reviews/2026-Q1/remediation/status-checks.md); closing through CR-001 and CR-003 | POAM-014 (AC-2, AC-6) |
 | Q4 2026 | Planned, after 2026-11-15 | Microsoft Entra ID (including admin, break-glass and guest accounts), Toast POS, xtraCHEF, network admin, password manager, connected-device and vendor portals ([planned scope](procedure/quarterly-access-review-procedure.md#planned-additions-to-scope-first-review-after-2026-11-15)) | — | Planned: the first review against Entra ID, and the post-implementation review for CR-001 and CR-003 | — |
 
-Corrections to dated records are logged in [evidence/CORRECTIONS.md](evidence/CORRECTIONS.md).
+Corrections to dated records are logged in [reviews/2026-Q1/evidence/CORRECTIONS.md](reviews/2026-Q1/evidence/CORRECTIONS.md).
 
 ## Goal
 
