@@ -14,7 +14,7 @@ Everything in the [procedure's scope](../../procedure/quarterly-access-review-pr
 
 1. **Confirm the Q1 findings are closed** (IAM:F-001 to F-004), with evidence, or record them as still open.
 2. **Raise what Q1 missed:** the generic shared vendor accounts ("Vertex IT Support", "NorthPeak Systems") that P-001 §5.7 doesn't allow (program finding AL-13). Record it as a new finding with its closure evidence from the CR-003 handover.
-3. **Check the new design:** admin roles exactly as in the hub's `admin-accounts.csv`, `grp-bc-*` group membership against `people.csv`, break-glass sign-ins explained, no personal accounts on vendor portals.
+3. **Check the new design:** admin roles exactly as in the hub's `admin-accounts.csv`, `grp-bc-*` group membership against `people.csv`, the website's `bc-website-staff` app-role assignments against `people.csv` (and that Entra ID itself refuses an account with no role), break-glass sign-ins explained, no personal accounts on vendor portals.
 4. **Separation of duties:** the IT Technician exports the data; the Owner and Store Manager review and **sign off** (the sign-off missing from Q1).
 
 ## Planned files
